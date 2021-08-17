@@ -24,7 +24,7 @@ function Row({
         fetchData();
     }, [fetchURL]);
 
-    console.table(movies);
+    // console.table(movies);
 
     return ( 
         <div className = "row">
